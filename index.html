@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <div class="row">
+    <header class="row">
       <div class="col-md-6">
         <img class="title-logo" src="images/logo.png" alt="Udacity logo">
       </div>
@@ -20,53 +20,50 @@
         <h1 class="title-super text-thin">Xin Wang</h1>
         <h4>Front-end Ninja</h4>
       </div>
-    </div>
-    <div class="row">
+    </header>
+    <section class="row">
       <div class="col-md-12">
-        <img class="portfolio-img img-responsive" src="images/banner.jpg" alt="Wifi in the sky">
+        <img class="portfolio-img img-responsive" src="images/banner.png" alt="Wifi in the sky" srcset="images/banner-HD.png 2x">
       </div>
-    </div>
-    <div class="row">
+    </section>
+    <section class="row">
       <div class="col-md-12">
         <h2 class="text-muted">Featured Work</h2>
       </div>
-    </div>
-    <div class="row text-center">
+    </section>
+    <section class="row text-center">
       <div class="col-md-4">
-        <img class="img-responsive" src="images/flashcard.png" data-toggle="modal" data-target="#project1">
+        <img class="img-responsive" src="images/flashcard.png" alt="flashcard project" data-toggle="modal" data-target="#project1">
         <h3>Flashcard</h3>
         <p>
           <a href="https://github.com/Xin00163/Flashcard-project">Link to project on Github</a>
         </p>
       </div>
       <div class="col-md-4">
-        <img class="img-responsive" src="images/Movie trailer website.png" data-toggle="modal" data-target="#project2">
+        <img class="img-responsive" src="images/Movie trailer website.png" alt="movie trailer project" data-toggle="modal" data-target="#project2">
         <h3>Movie Trailer Website</h3>
         <p>
           <a href="https://github.com/Xin00163/Movie-Trailer-Website-Project">Link to project on Github</a>
         </p>
       </div>
-    <div class="row">
       <div class="col-md-4">
-        <img class="img-responsive" src="images/Wishlist.png" data-toggle="modal" data-target="#project3">
+        <img class="img-responsive" src="images/Wishlist.png" alt="wishlist project" data-toggle="modal" data-target="#project3">
         <h3>Wishlist</h3>
         <p>
           <a href="https://github.com/Xin00163/jQuery-Exercise-1-Build-a-wish-list">Link to project on Github</a>
         </p>
       </div>
-    </div>
+    </section>
   </div>
-</div>
 <!-- Modal -->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                    <h4 class="modal-title" id="myModalLabel1">Flashcard Page</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="images/555.jpeg">
-                    This was my first project in this class. I learned a lot about HTML and CSS.
+                    This was a flashcard project for Chinese language learner to remember basic Chinese words.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -78,11 +75,10 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                    <h4 class="modal-title" id="myModalLabel2">Movie Trailer Page</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="images/555.jpeg">
-                    This was my first project in this class. I learned a lot about HTML and CSS.
+                    This was my first project in this course.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -94,11 +90,10 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                    <h4 class="modal-title" id="myModalLabel3">Wishlist Page</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="images/555.jpeg">
-                    This was my first project in this class. I learned a lot about HTML and CSS.
+                    This was my first project Codebar. I learnt HTML, CSS and Javascript.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
